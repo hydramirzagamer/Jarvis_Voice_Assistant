@@ -16,20 +16,17 @@ import yagmail
 
 
 
-my_gmail, my_pass = "fakeid3num@gmail.com", "lwjf iryc vnuq bzas" # email and password for yagmail
+my_gmail, my_pass = "***", "****" # email and password for yagmail
 
 mails = {
-    "my gmail": "suhailmirzag58@gmail.com",
-    "second mail": "nishakherun8@gmail.com",
+    "my gmail": "mail",
+    "second mail": "mail",
 } # email list
 
 
 contacts = {
-    "big bro": "+918802870414",
-    "my number": "+918010867722",
-    "tabrez bro": "+918899527486",
-    "sameer bro": "+919354117178",
-    "bro": "+917836977567",
+    "big bro": "number",
+    "my number": "number"
 
 } # contact list
 
@@ -84,11 +81,7 @@ greetings = [
 ] # list of greetings
 
 insta_usernames = {
-    "my insta": "gamingguru.esports",
-    "my id": "gamingguru.esports",
-    "my account": "gamingguru.esports",
-    "my instagram": "gamingguru.esports",
-    "big bro": "tabrezm88",
+    "my insta": "zenthicqask",
 } # instagram usernames
 
 
@@ -100,8 +93,8 @@ scheduled_flags = {}
 
 # Connect to my android device using ui2 try through wireless or else through usb
 try:
-    device_ip = "192.168.1.128"
-    device_port = 39689
+    device_ip = "192.168.1.***"
+    device_port = 55555
     d = u2.connect(f"{device_ip}:{device_port}")
 
 except Exception as e:  
